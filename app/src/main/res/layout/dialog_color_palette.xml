@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_main"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ib_color_white"
+            android:tag="@color/white"
+            android:layout_width="wrap_content"
+            android:onClick="paintClicked"
+            android:layout_height="wrap_content"
+            android:background="@drawable/brush_image_button_background"
+            android:contentDescription="image"
+            android:src="@drawable/white_color" />
+
+        <ImageButton
+            android:id="@+id/ib_color_black"
+            android:tag="@color/black"
+            android:onClick="paintClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/brush_image_button_background"
+            android:contentDescription="image"
+            android:src="@drawable/black_color"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ib_color_red"
+            android:tag="@color/red"
+            android:onClick="paintClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/brush_image_button_background"
+            android:contentDescription="image"
+            android:src="@drawable/red_color"
+            />
+
+        <ImageButton
+            android:id="@+id/ib_color_blue"
+            android:tag="@color/blue"
+            android:onClick="paintClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/brush_image_button_background"
+            android:contentDescription="image"
+            android:src="@drawable/blue_color" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/ib_color_green"
+            android:tag="@color/green"
+            android:onClick="paintClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/brush_image_button_background"
+            android:contentDescription="image"
+            android:src="@drawable/green_color"
+            />
+
+        <ImageButton
+            android:id="@+id/ib_color_pink"
+            android:tag="@color/pink"
+            android:onClick="paintClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/brush_image_button_background"
+            android:contentDescription="image"
+            android:src="@drawable/pink_color"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
